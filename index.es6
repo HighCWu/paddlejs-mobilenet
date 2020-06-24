@@ -1,7 +1,9 @@
-import 'babel-polyfill';
-import { Paddle, IO, Utils } from 'paddlejs';
+// import 'babel-polyfill';
+import Paddle from './paddlejs/src/paddle/paddle';
+import IO from './paddlejs/src/feed/ImageFeed';
+import Utils from './paddlejs/src/utils/utils';
 // 获取map表
-import Map from 'map';
+import Map from './paddlejs/test/data/map';
 
 const fileDownload = require('js-file-download');
 

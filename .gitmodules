@@ -1,0 +1,3 @@
+[submodule "paddlejs"]
+	path = paddlejs
+	url = https://github.com/PaddlePaddle/Paddle.js

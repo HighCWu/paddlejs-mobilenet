@@ -51,7 +51,7 @@ async function run(input) {
         }
     });
 
-    const path = 'https://paddlejs.cdn.bcebos.com/models/mobileNetV2';
+    const path = '.'; // 'https://paddlejs.cdn.bcebos.com/models/mobileNetV2';
 
     if (!loaded) {
         const MODEL_CONFIG = {
